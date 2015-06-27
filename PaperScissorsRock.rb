@@ -12,22 +12,22 @@ puts 'User    : ' + userChoice
 puts 'Computer: ' + computerChoice
 
 def compare(choice1, choice2)
-  if choice1 === choice2
+  if choice1 == choice2
     return 'The result is a tie!'
-  elsif choice1 === 'rock'
-    if choice2 === 'scissors'
+  elsif choice1 == 'rock'
+    if choice2 == 'scissors'
       return 'rock wins!'
     else
       return 'paper wins!'
     end
-  elsif choice1 === 'paper'
-    if choice2 === 'rock'
+  elsif choice1 == 'paper'
+    if choice2 == 'rock'
       return 'paper wins!'
     else
       return 'scissors wins!'
     end
-  elsif choice1 === 'scissors'
-    if choice2 === 'rock'
+  elsif choice1 == 'scissors'
+    if choice2 == 'rock'
       return 'rock wins!'
     else
       return 'scissors wins!'
