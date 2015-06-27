@@ -10,3 +10,13 @@ else
     computerChoice = "scissors";
 end
 puts "Computer: " + computerChoice
+
+def compare(choice1, choice2)
+    return "TODO"
+end
+
+result= compare userChoice, computerChoice
+
+# var result = compare(userChoice, computerChoice);
+# console.log(result);
+
