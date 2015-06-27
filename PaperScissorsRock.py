@@ -12,3 +12,9 @@ else:
     computerChoice = "scissors";
 print "User    : " + userChoice
 print "Computer: " + computerChoice
+
+def compare(choice1, choice2):
+    return "TODO"
+
+result = compare(userChoice, computerChoice);
+print result
