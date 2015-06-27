@@ -33,7 +33,7 @@ def compare(choice1, choice2)
       return 'scissors wins!'
     end
   else
-    return 'Invalid choice '' + choice1 +''';
+    return "Invalid choice '#{choice1}'";
   end
 end
 
